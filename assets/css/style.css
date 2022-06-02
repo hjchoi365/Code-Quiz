@@ -13,7 +13,7 @@
     margin: 5px 0 20px;
     font-size: 1.5rem;
     font-weight: bold;
-    color: blueviolet;
+    color: black;
 }
 
 .main-page {
@@ -79,4 +79,76 @@
 .btn1:hover {
     background-color: darkblue;
 }
+
+.border {
+    width: 70%;
+    border-top: 2px solid gainsboro;
+    padding: 10px;
+}
+
+.result {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 340px;
+}
+
+#result p {
+    color: gainsboro;
+    font-size: 30px;
+    width: 70px;
+}
+
+.btn1 {
+    border-radius: 12px;
+    top: -3px;
+    margin-top: 20px;
+    box-shadow: 0 3px gray;
+    cursor: pointer;
+    text-align: left;
+    font-size: 1.1rem;
+    background: darkblue;
+    padding: 10px 15px;
+    width: 25px;
+    border: none;
+    outline: none;
+}
+
+#submit-form {
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 340px;
+}
+
+#intial {
+    border: 1.5px solid; 
+    padding: 7px 15px;
+}
+
+.load-scores {
+    padding: 100px 55px;
+    margin-left: 340px;
+}
+
+.high {
+    padding-left: 22px;
+}
+
+.list-item {
+    width: 45%;
+    font-size: 18px;
+}
+
+#listitems {
+    background-color: white;
+    margin-bottom: 4px;
+}
+
+
+
+
+
+
+
+
 
