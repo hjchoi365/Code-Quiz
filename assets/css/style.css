@@ -54,7 +54,7 @@
     margin-left: 340px;
 }
 
-.questions p{
+.questions p {
     font-size: 30px;
     font-weight: bold;
     width: 70%;
@@ -121,7 +121,7 @@
 }
 
 #intial {
-    border: 1.5px solid; 
+    border: 1.5px solid;
     padding: 7px 15px;
 }
 
@@ -144,11 +144,21 @@
     margin-bottom: 4px;
 }
 
+#listitems {
+    background-color: rgb(234, 234, 240);
+    margin-bottom: 4px;
+}
 
+.hscores-gobtn {
+    width: 15%;
+    margin: 5px 22px;
+}
 
+.hscores-clbtn {
+    width: 25%;
+    margin: 5px 16px;
+}
 
-
-
-
-
-
+#viewscore {
+    cursor: pointer;
+}
