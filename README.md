@@ -35,7 +35,7 @@ THEN I can save my initials and score
 The following animation demonstrates the application functionality:
 
 <div>
-    <img src="./assets/images/coding-quiz-pic" width="400px"/> 
+    <img src="./assets/images/picture.jpg" width="400px"/>
 </div>
 
 ## Built With
