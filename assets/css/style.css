@@ -2,163 +2,169 @@
     box-sizing: border-box;
 }
 
-#head {
+
+/*Header style*/
+#head{
     display: flex;
-    justify-content: space-between;
-    flex-direction: row;
+    flex-direction:row ;
+    justify-content: space-between; 
     padding: 20px 50px;
 }
 
 #head p {
+    color: red;
     margin: 5px 0 20px;
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: black;
+    font-size: 1.5rem;   
+    font-weight: bold;   
 }
 
-.main-page {
+/*main page style*/
+.main-page{
     text-align: center;
     padding: 40px 50px;
 }
-
-.main-page p {
+    
+.main-page p{
     font-size: 18px;
-    color: darkblue;
-    font-weight: bold;
+    color: purple;
+    font-weight: bold;    
 }
 
-.btn {
-    outline: none;
-    border: none;
-    padding: 10px 10px;
-    margin-top: 20px;
-    display: inline-block;
-    font-size: 1.1rem;
-    border-radius: 12px;
-    position: relative;
-    background-color: darkblue;
-    top: -3px;
-    cursor: pointer;
-    color: white;
-    box-shadow: 0 3px gray;
+/*style for button*/
+.btn{
+outline: none;
+border: none;
+display: inline-block;
+padding: 10px 10px;
+background: purple;
+font-size: 1.1rem;
+border-radius: 12px;
+position: relative;
+top: -3px;
+box-shadow: 0 3px gray;
+margin-top: 20px;
+cursor: pointer;
+color: beige;
 }
 
-.btn:hover {
-    background-color: darkblue;
+.btn:hover{
+    background-color: red ;
 }
 
-.questions {
-    display: flex;
-    justify-content: column;
+/*style for questions section*/
+.questions{
+    
+    display:flex;
     flex-direction: column;
-    margin-left: 340px;
-}
-
-.questions p {
-    font-size: 30px;
-    font-weight: bold;
-    width: 70%;
-    color: darkgray;
-}
-
-.btn1 {
-    border: none;
-    outline: none;
-    padding: 10px 15px;
-    background: darkblue;
-    font-size: 1.1rem;
-    border-radius: 12px;
-    top: -3px;
-    box-shadow: 0 3px gray;
-    width: 25%;
-    text-align: left;
-    color: gray;
-    cursor: pointer;
-}
-
-.btn1:hover {
-    background-color: darkblue;
-}
-
-.border {
-    width: 70%;
-    border-top: 2px solid gainsboro;
-    padding: 10px;
-}
-
-.result {
-    display: flex;
     justify-content: space-between;
-    flex-direction: column;
     margin-left: 340px;
 }
 
-#result p {
-    color: gainsboro;
+.questions p{
     font-size: 30px;
-    width: 70px;
+    color: purple;
+    font-weight: bold; 
+    width: 70%;
+    color: black;
 }
 
-.btn1 {
+.btn1{
+    outline: none;
+    border: none;
+    width: 25%;
+    padding: 10px 15px;
+    background: purple;
+    font-size: 1.1rem;
     border-radius: 12px;
     top: -3px;
-    margin-top: 20px;
     box-shadow: 0 3px gray;
     cursor: pointer;
     text-align: left;
-    font-size: 1.1rem;
-    background: darkblue;
-    padding: 10px 15px;
-    width: 25px;
-    border: none;
-    outline: none;
+    color: beige;
 }
 
-#submit-form {
-    font-size: 25px;
-    font-weight: bold;
+.btn1:hover{
+    background-color: red ;
+}
+
+/*style for result section*/
+.border{
+    padding: 10px;
+    border-top:2px solid rgb(171, 171, 206);
+    width: 70%;
+}
+
+.result{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin-left: 340px;
 }
 
-#intial {
-    border: 1.5px solid;
+#result p{
+    font-size: 30px;
+    color: rgb(171, 171, 206); 
+    width: 70%;
+}
+
+.btn1{
+    outline: none;
+    border: none;
+    width: 25%;
+    padding: 10px 15px;
+    background: purple;
+    font-size: 1.1rem;
+    border-radius: 12px;
+    top: -3px;
+    box-shadow: 0 3px gray;
+    margin-top: 20px;
+    cursor: pointer;
+    text-align: left;
+}
+
+/*style for submit form*/
+#submit-form{
+        margin-left: 340px;
+        font-size: 25px;
+        font-weight: bold; 
+}
+
+#initial{
+    border: 1.5px solid purple;
     padding: 7px 15px;
 }
 
-.load-scores {
+
+.load-scores{
     padding: 100px 55px;
     margin-left: 340px;
 }
 
-.high {
+.high{
     padding-left: 22px;
 }
 
-.list-item {
-    width: 45%;
+/*style for view score section*/
+.list-item{
     font-size: 18px;
+    width: 45%;
 }
 
-#listitems {
-    background-color: white;
+#listitems{
+    background-color:  rgb(234, 234, 240);
     margin-bottom: 4px;
 }
 
-#listitems {
-    background-color: rgb(234, 234, 240);
-    margin-bottom: 4px;
+.hscores-gobtn{
+    width : 15%;
+    margin :5px 22px;
 }
 
-.hscores-gobtn {
-    width: 15%;
-    margin: 5px 22px;
+.hscores-clbtn{
+    width : 25%;
+    margin :5px 16px;
 }
 
-.hscores-clbtn {
-    width: 25%;
-    margin: 5px 16px;
-}
-
-#viewscore {
+#viewscore{
     cursor: pointer;
 }
